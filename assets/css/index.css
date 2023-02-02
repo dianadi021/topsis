@@ -3,3 +3,72 @@
 body {
   font-family: "Roboto", "Times New Roman", Times, serif;
 }
+legend,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+#navbar_footer > footer > div > p {
+  text-align: center;
+}
+a.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 45px;
+  z-index: 100;
+}
+a.scroll-to-top:hover {
+  background: #171a1c;
+}
+#table_show {
+  display: none;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.75);
+  overflow-x: hidden;
+  /*transition: 0.5s;*/
+}
+#popup_result {
+  position: fixed;
+  padding-top: 5em;
+  z-index: 100;
+}
+.closebtn{
+  width: fit-content;
+  height: fit-content;
+  top: 0;
+  float: right;
+  display: inline-block;
+}
+.result_TOPSIS_container {
+  width: 50%;
+  top: 15%;
+  background-color: whitesmoke;
+  padding: 3em;
+  height: auto;
+  border: 1px solid black;
+}
+#table_show{
+  width: 100%;
+  display: block;
+  position: relative;
+  height: auto;
+}
