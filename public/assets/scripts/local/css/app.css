@@ -1,0 +1,48 @@
+@import url("../../vendor/font-awesome/all.min.css");
+@import url("../../vendor/jquery/jquery-ui.css");
+@import url("../../vendor/jquery/jquery.datetimepicker.css");
+
+* {
+	font-size: 1rem;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+:root {
+	--light-blue: #8ecae6;
+	--soft-blue: #219ebc;
+	--dark-blue: #023047;
+	--medium-yellow: #ffb703;
+	--text-white: whitesmoke;
+}
+
+#app {
+	background-color: var(--dark-blue);
+}
+
+#app div {
+	background-color: var(--text-white);
+}
+
+a {
+	color: var(--soft-blue) !important;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.yellow-border-bottom {
+	border-bottom: 3px solid var(--medium-yellow);
+}
+
+.background-footer {
+	background-color: var(--soft-blue);
+}
+
+.txt-tabs {
+	color: var(--soft-blue) !important;
+}
+
+.txt-tabs.active {
+	color: var(--text-white) !important;
+}
